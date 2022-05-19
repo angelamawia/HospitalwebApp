@@ -1,0 +1,55 @@
+body {
+    background-color:rgba(100, 148, 237, 0.575);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+     
+    width:500px;
+    height:400px;
+    justify-content:center;
+}
+ 
+header{
+    /*background-color:#cabbb8;*/
+    display:block;
+    color:black;
+    padding:8px;
+    text-align:center;
+    /*width:490px;
+    height:9%;*/
+    justify-content:center;
+}
+
+#container{
+    margin:2px;
+    justify-content:center;
+    display:flex;
+    background-position: center; 
+    background-attachment: fixed;
+    width:500px;
+    right:350;
+    height:600px;
+    position:absolute;
+    /*background-color:bisque; */
+    position: absolute;
+ 
+}
+
+input[type=text], input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background:white;
+    }
+  input[type=number]:focus, input[type=telephone]:focus {
+    background-color:white;
+    outline: none;
+  }
+
+button{
+    ruby-span: none;
+    text-align:none;
+    width:fit-content;
+}

@@ -1,0 +1,113 @@
+body {
+       
+      margin:auto; 
+       
+      align-items: center;
+      background-color:#f3f3f3;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      background-size:cover;
+      font-family: Arial, Helvetica, sans-serif;
+       
+}
+h2{
+      text-align:center;
+      font-size:15px;
+      margin:10px; 
+      color:blue; 
+    }
+   header {
+    background-color:bisque;
+    padding: 2px;
+    color:blue; 
+  }
+  .left_container{
+    position: absolute;
+    width:20%;
+    left:0px;
+     
+  }
+  .left_container p{
+    padding-top:2px;
+    padding-bottom:5px;
+    font-weight:bold;
+    font-family: Arial;
+    color:blue;
+    margin:20px;
+  }
+  .left_container ul{
+    position: relative;
+    background:transparent;
+    left:-19px;
+  }
+  .left_container ul li{
+    margin-bottom: 2px;
+    background-color:bisque;
+    list-style: none;
+    padding: 8px;
+    font-size:14px;
+    color:#fff;
+    font-family: Arial;
+    border: 1px solid beige;
+  
+  }
+  .left_container ul li:hover, .site_menu li:hover{
+    background:beige;
+    color:black;
+    cursor: pointer;
+  }
+  .left_container ul li a, .site_menu li a{
+    text-decoration: none;
+    color:black;
+  }
+ /*.navlink ul {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+  }
+  .navlink li {
+    padding:6px 16px;
+    text-align:center;
+    /*border-right: 1px solid #bbb;*/
+    /*background-color:green;
+    } 
+  .navlink li a {
+        display: block;
+        color:fuchsia;
+        text-align:center;
+        padding: 6px 10px;
+        text-decoration: none;
+        justify-content:center;
+   }
+   .navlink a:hover {
+    background-color:fuchsia;
+    color:black;
+  }*/
+  #center {  
+    object-fit: auto;  
+    object-position: center top;  
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+   }
+   img {
+    width: auto;
+    height:auto;
+    align-items: center;
+}
+.footer{
+  position: relative;
+  background-color:cornsilk;
+  padding-top: 10px;
+  padding-bottom: 0;
+  bottom: 0px;
+}
+.footer p{
+  
+  font-family: arial;
+  background-color:cornsilk;
+}  
