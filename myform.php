@@ -5,16 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Registration Form</title>
-    
     <link rel="stylesheet" href="myform.css">
-    
 </head>
 <body>
   <div>
     <header>PREGNANCY REGISTRATION FORM</header>
-  </div>
-  <div id="container">
-  <form action="register.py" method="post">
+     </div>
+       <div id="container">
+     <form action="register.py" method="post">
         <label>Patientid:</label>
         <input type="text" id="id" name="Patientid"><br>
         <label>First Name: </label>

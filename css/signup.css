@@ -2,14 +2,14 @@
 body {
   padding:0;
   margin:2px;  
-  background-color:powderblue;
+  /*background-color:#f3f3f3;*/
   background-repeat:no-repeat;
   background-attachment: fixed;
   background-position: center; 
   background-size:cover;
 }
 header{
-  color:darkorchid;
+  color:black;
   margin-left:340px; 
 }
 
@@ -22,39 +22,46 @@ header{
     margin: 20px;
     width: 400px;
     padding: 16px;
-    background-color:#04AA6D;
+    background-color:bisque;
   }
-  input[type=text], input[type=password] {
+  input[type=text], input[type=name] {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
-    background: #f1f1f1;
+    background-color:#f1f1f1;
     }
-    input[type=text], input[type=date] {
-      width: 75%;
-      padding: 10px;
-      margin: 5px 0 22px 0;
-      border: none;
-      background: #f1f1f1;
-    }
-    input[type=text], input[type=Gender] {
-      width: 100%;
-      padding: 10px;
-      margin: 5px 0 22px 0;
-      border: none;
-      background: #f1f1f1;
-    }
-    input[type=text], input[type=Gender] {
+    input[type=text], input[type=gender] {
       width: 100%;
       padding: 15px;
       margin: 5px 0 22px 0;
       border: none;
-      background: #f1f1f1;
+      background-color: #f1f1f1;
+    }
+    input[type=text], input[type=date] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: #f1f1f1;
+    }
+    input[type=text],input[type=email] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: #f1f1f1;
+    }
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background-color: #f1f1f1;
     }
     .dropdown-content {
-      display: none;
-      padding:i6px;
+      /*display: none;*/
+      padding:i5px;
       position: absolute;
       background-color: #f9f9f9;
       width: 100%;
@@ -62,8 +69,8 @@ header{
       z-index: 1;
     }
     .btn {
-        background-color:aqua;
-        color:black;
+        background-color:black;
+        color:white;
         padding: 10px 20px;
         border: none;
         width: 50%;

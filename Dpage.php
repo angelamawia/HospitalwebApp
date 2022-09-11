@@ -12,6 +12,7 @@ include_once("databaseconnection.php");
  </head>
            <body style="background-color:powderblue";> 
             <header> 
+            <div><p><li><a href="mainpage.php">HOME</a></li></p></div>
               <h2>DOCTOR'S  DASHBOARD</h2></header>
                 <div class="left_container">
 				<p>Navigation </p>
@@ -24,8 +25,7 @@ include_once("databaseconnection.php");
                     <li><a href="Dlogout.php">logout</a></li>
 				</ul>
 			</div> 
-            
-            <img id= "center" src="images/care.jpg">
+           <img id= "center" src="images/care.jpg">
             <h2 style="color:blue;" text-family="Arial";>Welcome to Medicare where 
             the health of every pregnant mother matters the most</h2>
             <div>

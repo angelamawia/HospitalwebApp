@@ -8,8 +8,11 @@
  <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
-     <!--<h2>Sign Up Form-->
+<div><p><li><a href="mainpage.php">HOME</a></li></p></div>
+    
     <form action="Dsignup.php" method="post" class="container">
+    <fieldset>
+    <legend><h2>Doctor Registration</h2></legend>
     <label for="name">First name</label><br>
     <input type="text" placeholder="Enter your first name" name="fname" required><br>
     <label for="name">Second name</label><br>
@@ -28,7 +31,7 @@
     <br>
 
     <button type="submit" id="submit" class="btn">Register</button>
-                    
+</fieldset>                
   </form>
 </body>
 </html>

@@ -22,13 +22,18 @@
         }
         tr:nth-child(even) {
                 background-color: #f3f3f3
-        }   
+        } 
+        p {
+           text-align:float left;
+           color:blue;
+           list-style:none;
+        }  
     </style> </head>
            <body style="background-color:#f3f3f3";><header>
-           
+             
             
               <center><h1>Pregnant Mothers' Health Records</h1></center> </header>
-             
+             <div><p><li><a href="mainpage.php">HOME</a></li></p></div>
              <div class="container">
                  <form action="" method="POST">
                      <input type="text" name="id" placeholder="Enter your first name"/>

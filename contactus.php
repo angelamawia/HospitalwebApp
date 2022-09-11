@@ -12,7 +12,6 @@
 <p>Anytime you need us, we are here for you, send contact us! </p>
 <div class="container">
 <div style="text-align:center">
-    
   </div>
   <div class="row">
     <div class="column">

@@ -15,7 +15,7 @@ if ($conn->connect_error){
     $sql =$conn->prepare("insert into aregister(fname, sname, gender, date, email, password) values(?, ?, ?, ?, ?, ?)");
     $sql->bind_param("ssssss",$fname, $sname, $gender, $date, $email, $password);
     $sql->execute();
-    echo "Registration successful "," <span><a href='adminlogin.php'>Back to login</a></span>";
+    echo "Registration successful "," <span><a href='Adminlogin.php'>Back to login</a></span>";
     $sql->close();
     $conn->close();
 }
